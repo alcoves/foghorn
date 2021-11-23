@@ -1,0 +1,16 @@
+{
+  "name": "foghorn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "pm2 start index.js --name foghorn"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.3.2",
+    "wrtc": "^0.4.7"
+  }
+}
